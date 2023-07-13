@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "fira code";
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rigatoni";
+}
+
+.nav {
+  background-color: rgb(192, 29, 192);
+  color: white;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav p {
+  font-size: 20px;
+}
+
+.foods-container {
+  background-color: white;
+  width: min(90%, 500px);
+  padding: 10px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.name-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-price p {
+  padding-inline: 10px;
+  padding-block: 4px;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quantity p {
+  padding-inline: 3px;
+  padding-block: 2px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: min(90%, 800px);
+  padding: 20px;
+  margin: auto;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: min(90%, 800px);
+  margin: auto;
+}
+
+.btn {
+  width: 100%;
+  padding-block: 8px;
+  background-color: rgb(192, 29, 192);
+  color: white;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.food-name {
+  font-weight: 700;
+}
+
+.food-price {
+  font-size: 12px;
+}
+
+.remove-btn {
+  font-size: 14px;
+  color: rgb(192, 29, 192);
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.no-results button {
+  margin-block: 20px;
+  padding-inline: 30px;
+  padding-block: 5px;
+  background: rgb(192, 29, 192);
+  border: 0;
+  color: white;
+  font-size: 1.1rem;
+}
